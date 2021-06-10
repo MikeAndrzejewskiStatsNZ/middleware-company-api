@@ -9,7 +9,6 @@ describe('/GET Company', () => {
     chai.request(server)
       .get('/v1/companies/1')
       .end((err, res) => {
-        console.log(res)
         res.should.have.status(200)
         done()
       })
