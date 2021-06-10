@@ -14,7 +14,7 @@ for the route itself or the returned object could be implemented, I feel it is p
 out of scope for this exercise.
 */
 
-router.get('/:id', (req, res) => {
+router.get('/:id', (req, res, body) => {
   res.setHeader('Content-Type', 'application/json')
   res.status(200)
   // Fetches the appropriate xml document.

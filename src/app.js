@@ -20,3 +20,5 @@ app.all('*', function (req, res) {
 })
 
 app.listen(port, () => console.log(`Node server running on port: ${port}`))
+
+module.exports = app
