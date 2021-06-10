@@ -1,8 +1,7 @@
 # middleware-company-api
 
 ### Setup Instructions
-clone down the repo
-npm install
+clone down the repo and run npm install.
 
 Notes:
 
