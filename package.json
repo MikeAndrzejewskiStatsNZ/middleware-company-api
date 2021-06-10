@@ -1,0 +1,28 @@
+{
+  "name": "middleware-evaluation",
+  "version": "1.0.0",
+  "description": "Simple api that calls company information from the company xml",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.js?(x)'",
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.19.0",
+    "node-fetch": "^2.6.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
